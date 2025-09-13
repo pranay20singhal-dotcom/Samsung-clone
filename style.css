@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 85px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+.nav-logo {
+    height: 42px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    position: relative;
+    right: 120px;
+    padding-left: 30px;
+    margin-left: 60px;
+}
+
+.logo {
+    background-image: url("Font-Samsung-Logo.jpg");
+    background-size: cover;
+    width: 145px;
+    height: 49px;
+    background-color: white;
+    
+    
+   
+    
+}
+
+.logo:hover {
+    border: 2px dotted black;
+}
+
+/* box2 */
+
+.shop {
+    width: 39px;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35px;
+    position: relative;
+    right: 100px;
+    
+    margin-left: 0px;  
+}
+.border:hover {
+    border-bottom: 2px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+    cursor: pointer;
+}
+
+
+.mobile {
+    width: 44px;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35px;
+    position: relative;
+    right: 100px;
+    margin-left: 5px
+} 
+
+.tv {
+    width: 70px;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35px;
+    position: relative;
+    right: 115px;
+    margin-left: 5px
+
+}
+
+.comp {
+    width: 155px;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35px;
+    position: relative;
+    right: 119px;
+    
+
+
+}
+
+.access {
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35px;
+    position: relative;
+    right: 115px;
+    
+
+}
+
+.app {
+     width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35px;
+    position: relative;
+    right: 119px;
+    margin-left: 10px;
+
+
+}
+
+.nav-search {
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+    border-radius:20px ;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    position: relative;
+    left: 40px;
+}
+
+input {
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: #f3f3f3;
+     border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 6px;
+    
+}
+
+
+.nav-icon {
+    background-color: #f3f3f3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+.nav-search:hover {
+    border: 2px solid #cccccc;
+    cursor: pointer;
+    
+}
+
+.cart {
+    margin-top: 38px;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+   
+}
+
+.user {
+    margin-top: 38px;
+    font-size: 20px;
+}
+
+/* panel section */
+
+.panel1 {
+    font-size: 1.3rem;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 60px;
+    
+}
+
+.panel2 {
+    height: 120px;
+    display: flex;
+    margin-top: 57px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.panel-ops {
+    height: 120px;
+    display: block;
+    width: 120px;
+    cursor: pointer;
+    
+   position: relative;
+
+}
+
+.box-icon {
+    height: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.panel-ops:hover {
+    background-color: #f3f3f3;
+    transform: scale(1.1);
+   transition: transform 0.5s ease-in-out;
+
+}
+
+.line {
+    position: relative;
+    bottom: 35px;
+    left: 8px;
+    width: 100px;
+    font-size: 11.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+
+}
+
+/* shop-section */
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3f3;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    border: 1px solid #cccccc;
+    background-color: white;
+    padding: 23px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.box-image {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+  
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+.min-box {
+    margin-top: 20px;
+    height: 40px;
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.min {
+    height: 13px;
+    width: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 29px;
+    position: relative;
+    left: 85px;
+    margin-left: 10px;
+    
+}
+
+h3{
+    font-size: 1rem;
+    margin-top: 27px;
+}
+
+.box-image:hover {
+   transform: scale(1.1);
+   transition: transform 0.5s ease-in-out;
+    
+   
+    cursor: pointer;
+}
+
+.min1 {
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    left: 60px;
+    margin-left: 10px; 
+    font-size: 13px;
+}
+
+.min2 {
+    height: 13px;
+    width: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 29px;
+    position: relative;
+    left: 100px;
+    margin-left: 10px;
+}
+.min3 {
+    height: 13px;
+    width: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 45px;
+    position: relative;
+    left: 100px;
+    margin-left: 10px;
+}
+
+
+
